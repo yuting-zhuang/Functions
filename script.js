@@ -37,3 +37,8 @@ const wordBank = {
 	}
 };
 
+
+//Define a utility function to randomly select an element from an array.
+function random(arr) {
+	return arr[Math.floor(Math.random() * arr.length)];
+}
