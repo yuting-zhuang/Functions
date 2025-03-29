@@ -59,3 +59,6 @@ function generateSentence() {
 	//Display the generated sentence on the page (insert it into the element with the ID "output").
 	document.getElementById("output").textContent = sentence
 }
+
+//Bind a click event to the button: run the generateSentence function when the button is clicked.
+document.getElementById("generate-button").addEventListener("click", generateSentence);
