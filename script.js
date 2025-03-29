@@ -20,7 +20,7 @@ const wordBank = {
 
 	nature:{
 		subjects:[
-			"The mossy stone", "The glowing firefly","The river"
+			"mossy stone", "glowing firefly","river"
 		],
 
 		verbs:[
