@@ -16,7 +16,7 @@ const wordBank = {
 		objects:[
 			"time loops", "a floating city", "memory fragments"
 		]
-	}
+	},
 
 	nature:{
 		subjects:[
