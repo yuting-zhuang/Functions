@@ -42,3 +42,20 @@ const wordBank = {
 function random(arr) {
 	return arr[Math.floor(Math.random() * arr.length)];
 }
+
+
+//Generating sentences.
+function generateSentence() {
+
+	//Get the style currently selected by the user (retrieve the selected value from the dropdown menu).
+	const style = document.getElementById("style-container").value;
+
+	//Get the vocabulary object (subject, verb, adjective, object) from the corresponding style.
+	const bank = wordBank[style];
+
+	//Combine the sentence according to the structure.
+	const sentence = `${random(bank.subjects)} ${random(bank.verbs)} the ${random(bank.adjectives)} ${random(bank.objects)}.`;
+
+	//Display the generated sentence on the page (insert it into the element with the ID "output").
+	document.getElementById("output").textContent = sentence
+}
