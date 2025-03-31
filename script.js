@@ -62,3 +62,9 @@ function generateSentence() {
 
 //Bind a click event to the button: run the generateSentence function when the button is clicked.
 document.getElementById("generate-button").addEventListener("click", generateSentence);
+
+//Function for generating story.
+async function generateStory() {
+	const sentence = document.getElementById("output").textContent;
+
+}
